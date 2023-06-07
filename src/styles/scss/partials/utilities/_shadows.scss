@@ -1,0 +1,35 @@
+
+.shadow-xxl {
+    box-shadow: 
+        0px 548px 219px rgba(0, 0, 0, 0.01), 
+        0px 308px 185px rgba(0, 0, 0, 0.04), 
+        0px 137px 137px rgba(0, 0, 0, 0.06), 
+        0px 34px 75px rgba(0, 0, 0, 0.07), 
+        0px 0px 0px rgba(0, 0, 0, 0.07) !important;
+}
+.shadow-xl {
+    box-shadow: 
+        0px 513px 205px rgba(0, 0, 0, 0.01), 
+        0px 288px 173px rgba(0, 0, 0, 0.03), 
+        0px 128px 128px rgba(0, 0, 0, 0.04), 
+        0px 32px 71px rgba(0, 0, 0, 0.05), 
+        0px 0px 0px rgba(0, 0, 0, 0.05) !important;
+}
+.shadow-lg {
+    box-shadow: 
+        0px 81px 32px rgba(0, 0, 0, 0.01), 
+        0px 45px 27px rgba(0, 0, 0, 0.05), 
+        0px 20px 20px rgba(0, 0, 0, 0.09), 
+        0px 5px 11px rgba(0, 0, 0, 0.1), 
+        0px 0px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-md {
+    box-shadow: 
+        0px 5px 80px rgba(0, 0, 0, 0.05), 
+        0px 0px 0px rgba(0, 0, 0, 0.05) !important;
+}
+.shadow-sm {
+    box-shadow: 
+        0px 41px 89px rgba(0, 0, 0, 0.1), 
+        0px 0px 0px rgba(0, 0, 0, 0.1) !important;
+}
