@@ -1,6 +1,18 @@
 .border-gray-300 {
     border-color: $color-gray-300 !important;
 }
+.border-blue {
+    border-color: $color-blue !important;
+}
+.border-black-60 {
+    border-color: $color-black-60 !important;
+}
 .rounded-6 {
     border-radius: 4px;
+}
+.rounded-7 {
+    border-radius: 12px;
+}
+.rounded-top-7 {
+    border-radius: 12px 12px 0 0;
 }

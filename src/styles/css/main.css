@@ -164,6 +164,14 @@
   width: 14px;
 }
 
+.w-12 {
+  width: 12px;
+}
+
+.w-16 {
+  width: 16px;
+}
+
 .w-24 {
   width: 24px;
 }
@@ -172,8 +180,28 @@
   width: 32px;
 }
 
+.w-69 {
+  width: 69px;
+}
+
+.w-106 {
+  width: 106px;
+}
+
+.w-133 {
+  width: 133px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
 .h-5 {
   height: 5px;
+}
+
+.h-12 {
+  height: 12px;
 }
 
 .h-15 {
@@ -186,6 +214,14 @@
 
 .h-24 {
   height: 24px;
+}
+
+.h-106 {
+  height: 106px;
+}
+
+.h-136 {
+  height: 136px;
 }
 
 .h-32 {
@@ -216,8 +252,24 @@
   border-color: #EBEBEB !important;
 }
 
+.border-blue {
+  border-color: #0A66C2 !important;
+}
+
+.border-black-60 {
+  border-color: rgba(0, 0, 0, 0.6) !important;
+}
+
 .rounded-6 {
   border-radius: 4px;
+}
+
+.rounded-7 {
+  border-radius: 12px;
+}
+
+.rounded-top-7 {
+  border-radius: 12px 12px 0 0;
 }
 
 .start-20 {
@@ -230,6 +282,26 @@
 
 .top-5 {
   top: 5px !important;
+}
+
+.top-72 {
+  top: 72px;
+}
+
+.start-24 {
+  left: 24px;
+}
+
+.background-position-center {
+  background-position: center;
+}
+
+.background-repeat-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.background-size-cover {
+  background-size: cover;
 }
 
 .navbar-toggler:focus {
