@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar";
+
 const LinkedIn = () => {
   return (
-    <div className="container">
-      hello
+    <div className="bg-gray-200">
+      <Navbar />
     </div>
   );
 }
