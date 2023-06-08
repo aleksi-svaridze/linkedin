@@ -3,13 +3,9 @@
 
 @import './partials/utilities/colours';
 @import './partials/utilities/text';
+@import './partials/utilities/opacity';
 @import './partials/utilities/spacing';
 @import './partials/utilities/sizing';
 @import './partials/utilities/shadows';
 @import './partials/utilities/borders';
 @import './partials/utilities/position';
-
-* {
-    font-family: $font-roboto !important;
-    font-weight: 400 !important;
-}
