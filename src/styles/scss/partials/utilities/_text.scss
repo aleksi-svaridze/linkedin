@@ -1,6 +1,7 @@
 * {
     font-family: $font-roboto !important;
     font-weight: 400 !important;
+    color: $color-black !important;
 }
 
 .font-roboto {
@@ -8,4 +9,14 @@
 }
 .font-inter {
     font-family: $font-inter !important;
+}
+
+.fs-7 {
+    font-size: 14px !important;
+}
+.fs-8 {
+    font-size: 12px !important;
+}
+.fs-9 {
+    font-size: 11px !important;
 }
