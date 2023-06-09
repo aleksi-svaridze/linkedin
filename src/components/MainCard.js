@@ -1,7 +1,18 @@
 import ProfileBg from '../media/images/profile-bg.jpg';
 import ProfileImage from '../media/images/profile-image.jpg';
+import PostAvatar from '../media/images/post-avatar.png';
+import GlobeIcon from '../media/icons/globe.svg';
+import ThreeDotsIcon from '../media/icons/three-dots.svg';
 import PlusWhiteIcon from '../media/icons/plus-white.svg';
 import NewTabIcon from '../media/icons/new-tab-icon.svg';
+import LeftArrow from '../media/icons/arrow-left-desibled.svg';
+import RightArrow from '../media/icons/arrow-right.svg';
+
+import PostImage from '../media/images/post-image.jpg';
+import PostImage2 from '../media/images/post-image-2.jpg';
+import ThumbsUpIcon from '../media/icons/thumbs-up-icon.svg';
+import HeartIcon from '../media/icons/heart-icon.svg';
+import ClapIcon from '../media/icons/clap-icon.svg';
 
 export const MainCard = () => {
     return(
@@ -70,8 +81,102 @@ export const PostCard = () => {
     return(
         <div className="bg-white rounded-7 border border-gray-300">
 
-            <div className='mt-4 pt-2 px-4'>
-                <h2 className='fw-bold fs-5 text-capitalize mb-3'>Page posts</h2>
+            <div className='mb-3 pb-1 mt-4 pt-2 px-4 d-flex align-items-center justify-content-between'>
+                <h2 className='fw-bold fs-5 text-capitalize mb-0'>Page posts</h2>
+                <div className='d-flex align-items-center column-gap-2'>
+                    <img src={LeftArrow} alt="" className='h-26 w-26' role='button'/>
+                    <img src={RightArrow} alt="" className='h-26 w-26' role='button'/>
+                </div>
+            </div>
+
+            <div className="row gy-3 mb-3 px-4 pb-3">
+
+                <div className='col-12 col-xxl-6'>
+                    <div className="bg-white rounded-7 border border-gray-300 pb-4 pt-2">
+
+                        <div className="d-flex justify-content-between px-3 mt-1">
+
+                            <div className="d-flex column-gap-2">
+                                <img src={PostAvatar} alt="" className='w-40 h-40'/>
+                                <div className="">
+                                    <h3 className='fw-semibold fs-7 text-capitalize m-0'>Unfold</h3>
+                                    <p className='fs-8 text-black-60 m-0'>262,382 followers</p>
+                                    <p className='fs-8 text-black-60 m-0'>3d • <img src={GlobeIcon} alt='' className='w-14 h-14' /></p>
+                                </div>
+                            </div>
+
+                            <img src={ThreeDotsIcon} alt="" className='w-20 h-4 mt-2' role='button' />
+
+                        </div>
+
+                        <div className="px-3 mt-3 pt-1 mb-2">
+                            <p className='fs-7'>
+                                BattlePeer is an app that helps users struggling with <span className='text-uppercase'>ptsd</span> and depression connect with   peer 
+                                <span className='text-black-60 ms-2'>...see more</span>
+                            </p>
+                        </div>
+
+                        <img src={PostImage} alt="" className='w-100' />
+
+                        <div className='px-3'>
+                            <div className='d-flex align-items-center py-2 border-bottom border-gray-300'>
+
+                                <div className='position-relative bg-success h-14'>
+                                    <img src={ThumbsUpIcon} alt="" className='w-14 h-14 rounded position-absolute start-0' />
+                                    <img src={HeartIcon} alt="" className='w-14 h-14 rounded position-absolute start-10' />
+                                    <img src={ClapIcon} alt="" className='w-14 h-14 rounded position-absolute start-20' />
+                                </div>
+
+                                <p className='fs-8 text-black-60 mb-0 ms-4 ps-3'>958 • 16 comments • 65 reposts</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className='col-12 col-xxl-6'>
+                    <div className="bg-white rounded-7 border border-gray-300 pb-4 pt-2">
+
+                        <div className="d-flex justify-content-between px-3 mt-1">
+
+                            <div className="d-flex column-gap-2">
+                                <img src={PostAvatar} alt="" className='w-40 h-40'/>
+                                <div className="">
+                                    <h3 className='fw-semibold fs-7 text-capitalize m-0'>Unfold</h3>
+                                    <p className='fs-8 text-black-60 m-0'>262,382 followers</p>
+                                    <p className='fs-8 text-black-60 m-0'>2d • <img src={GlobeIcon} alt='' className='w-14 h-14' /></p>
+                                </div>
+                            </div>
+
+                            <img src={ThreeDotsIcon} alt="" className='w-20 h-4 mt-2' role='button' />
+
+                        </div>
+
+                        <div className="px-3 mt-3 pt-1 mb-2">
+                            <p className='fs-7'>
+                            Join us tomorrow for a second 🍵 TeaTime episode with our Creative Director of Illustration
+                                <span className='text-black-60 ms-2'>...see more</span>
+                            </p>
+                        </div>
+
+                        <img src={PostImage2} alt="" className='w-100' />
+
+                        <div className='px-3'>
+                            <div className='d-flex align-items-center py-2 border-bottom border-gray-300'>
+
+                                <div className='position-relative bg-success h-14'>
+                                    <img src={ThumbsUpIcon} alt="" className='w-14 h-14 rounded position-absolute start-0' />
+                                    <img src={HeartIcon} alt="" className='w-14 h-14 rounded position-absolute start-10' />
+                                    <img src={ClapIcon} alt="" className='w-14 h-14 rounded position-absolute start-20' />
+                                </div>
+
+                                <p className='fs-8 text-black-60 mb-0 ms-4 ps-3'>958 • 16 comments • 65 reposts</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
 
             <div className='border-top border-gray-300'></div>
