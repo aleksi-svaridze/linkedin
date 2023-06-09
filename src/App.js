@@ -1,4 +1,4 @@
-import MainCard from "./components/MainCard";
+import { MainCard, AboutCard, PostCard } from "./components/MainCard";
 import Navbar from "./components/Navbar";
 
 const LinkedIn = () => {
@@ -8,8 +8,10 @@ const LinkedIn = () => {
       <div className="container mt-4">
         <div className="row">
           <div className="col-12 col-lg-8">
-            <main>
+            <main className="d-flex flex-column row-gap-20">
               <MainCard />
+              <AboutCard />
+              <PostCard />
             </main>
           </div>
 

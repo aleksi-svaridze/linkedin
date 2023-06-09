@@ -148,12 +148,24 @@
   padding-bottom: 7px;
 }
 
+.pb-14 {
+  padding-bottom: 14px;
+}
+
 .pe-20 {
   padding-right: 20px;
 }
 
 .ps-40 {
   padding-left: 40px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.row-gap-20 {
+  row-gap: 20px;
 }
 
 .w-10 {
@@ -256,6 +268,10 @@
   border-color: #0A66C2 !important;
 }
 
+.border-green {
+  border-color: #057642 !important;
+}
+
 .border-black-60 {
   border-color: rgba(0, 0, 0, 0.6) !important;
 }
@@ -270,6 +286,10 @@
 
 .rounded-top-7 {
   border-radius: 12px 12px 0 0;
+}
+
+.rounded-bottom-7 {
+  border-radius: 0 0 12px 12px;
 }
 
 .start-20 {
