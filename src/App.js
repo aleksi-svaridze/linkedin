@@ -5,7 +5,7 @@ const LinkedIn = () => {
   return (
     <div className="bg-gray-200">
       <Navbar />
-      <div className="container mt-4">
+      <div className="container pt-83">
         <div className="row">
           <div className="col-12 col-lg-8">
             <main className="d-flex flex-column row-gap-20">

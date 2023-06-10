@@ -11,7 +11,7 @@ import SearchIcon from '../media/icons/search.svg';
 
 const Navbar = () => {
     return(
-        <nav className="navbar navbar-expand-lg py-0 bg-white border-bottom border-1 border-gray-300">
+        <nav className="position-fixed w-100 top-0 z-3 start-0 end-0 navbar navbar-expand-lg py-0 bg-white border-bottom border-1 border-gray-300">
             <div className="container justify-content-between">
                 <a className="navbar-brand p-0 me-2" href="/">
                     <img src={Logo} alt="" className='w-32 h-32' />
