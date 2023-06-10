@@ -1,13 +1,14 @@
-import { MainCard, AboutCard, PostCard } from "./components/MainCard";
 import Navbar from "./components/Navbar";
+import { MainCard, AboutCard, PostCard } from "./components/MainCard";
+import Aside from "./components/Aside";
 
 const LinkedIn = () => {
   return (
     <div className="bg-gray-200">
       <Navbar />
       <div className="container pt-83">
-        <div className="row">
-          <div className="col-12 col-lg-8">
+        <div className="row gy-4">
+          <div className="col-12 col-xl-8">
             <main className="d-flex flex-column row-gap-20">
               <MainCard />
               <AboutCard />
@@ -15,9 +16,9 @@ const LinkedIn = () => {
             </main>
           </div>
 
-          <div className="col-12 col-lg-4">
+          <div className="col-12 col-xl-4">
             <aside>
-
+                <Aside />
             </aside>
           </div>
         </div>
