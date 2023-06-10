@@ -127,9 +127,9 @@ export const PostCard = () => {
                             <div className='d-flex align-items-center py-2 border-bottom border-gray-300'>
 
                                 <div className='position-relative bg-success h-14'>
-                                    <img src={ThumbsUpIcon} alt="" className='w-14 h-14 rounded position-absolute start-0' />
-                                    <img src={HeartIcon} alt="" className='w-14 h-14 rounded position-absolute start-10' />
-                                    <img src={ClapIcon} alt="" className='w-14 h-14 rounded position-absolute start-20' />
+                                    <img src={ThumbsUpIcon} alt="" className='w-14 h-14 rounded-circle position-absolute start-0' />
+                                    <img src={HeartIcon} alt="" className='w-14 h-14 rounded-circle position-absolute start-10' />
+                                    <img src={ClapIcon} alt="" className='w-14 h-14 rounded-circle position-absolute start-20' />
                                 </div>
 
                                 <p className='fs-8 text-black-60 mb-0 ms-4 ps-3'>958 • 16 comments • 65 reposts</p>
