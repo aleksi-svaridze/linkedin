@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { MainCard, AboutCard, PostCard } from "./components/MainCard";
-import Aside from "./components/Aside";
+import {PeopleViewed, PeopleFollow} from "./components/Aside";
 
 const LinkedIn = () => {
   return (
@@ -17,8 +17,9 @@ const LinkedIn = () => {
           </div>
 
           <div className="col-12 col-xl-4">
-            <aside>
-                <Aside />
+            <aside className="d-flex flex-column row-gap-20">
+                <PeopleViewed />
+                <PeopleFollow />
             </aside>
           </div>
         </div>

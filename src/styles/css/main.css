@@ -217,6 +217,10 @@
   padding-bottom: 12px;
 }
 
+.pb-20 {
+  padding-bottom: 20px;
+}
+
 .pb-14 {
   padding-bottom: 14px;
 }
@@ -235,6 +239,10 @@
 
 .mt-12 {
   margin-top: 12px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
 }
 
 .mt-20 {
@@ -301,6 +309,14 @@
 
 .w-69 {
   width: 69px;
+}
+
+.w-73 {
+  width: 73px;
+}
+
+.w-97 {
+  width: 97px;
 }
 
 .w-106 {
@@ -449,6 +465,14 @@
 
 .start-20 {
   left: 20px;
+}
+
+.start-19 {
+  left: 19px;
+}
+
+.start-38 {
+  left: 38px;
 }
 
 .start-24 {
