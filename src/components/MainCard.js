@@ -14,6 +14,11 @@ import ThumbsUpIcon from '../media/icons/thumbs-up-icon.svg';
 import HeartIcon from '../media/icons/heart-icon.svg';
 import ClapIcon from '../media/icons/clap-icon.svg';
 
+import LikeIcon from '../media/icons/like.svg';
+import CommentIcon from '../media/icons/comment.svg';
+import RepostIcon from '../media/icons/repost.svg';
+import SendIcon from '../media/icons/send.svg';
+
 export const MainCard = () => {
     return(
         <div className="bg-white rounded-7 border border-gray-300">
@@ -91,7 +96,7 @@ export const PostCard = () => {
 
             <div className="row gy-3 mb-3 px-4 pb-3">
 
-                <div className='col-12 col-xxl-6'>
+                <div className='col-12 col-xl-6'>
                     <div className="bg-white rounded-7 border border-gray-300 pb-4 pt-2">
 
                         <div className="d-flex justify-content-between px-3 mt-1">
@@ -118,7 +123,7 @@ export const PostCard = () => {
 
                         <img src={PostImage} alt="" className='w-100' />
 
-                        <div className='px-3'>
+                        <div className='px-3 mb-3'>
                             <div className='d-flex align-items-center py-2 border-bottom border-gray-300'>
 
                                 <div className='position-relative bg-success h-14'>
@@ -131,10 +136,29 @@ export const PostCard = () => {
                             </div>
                         </div>
 
+                        <div className='px-3 d-flex align-items-center justify-content-center'>
+                            <div className='text-center px-22'>
+                                <img src={LikeIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>like</p>
+                            </div>
+                            <div className='text-center px-22'>
+                                <img src={CommentIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>comment</p>
+                            </div>
+                            <div className='text-center px-22'>
+                                <img src={RepostIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>repost</p>
+                            </div>
+                            <div className='text-center px-22'>
+                                <img src={SendIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>send</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-                <div className='col-12 col-xxl-6'>
+                <div className='col-12 col-xl-6'>
                     <div className="bg-white rounded-7 border border-gray-300 pb-4 pt-2">
 
                         <div className="d-flex justify-content-between px-3 mt-1">
@@ -161,7 +185,7 @@ export const PostCard = () => {
 
                         <img src={PostImage2} alt="" className='w-100' />
 
-                        <div className='px-3'>
+                        <div className='px-3 mb-3'>
                             <div className='d-flex align-items-center py-2 border-bottom border-gray-300'>
 
                                 <div className='position-relative bg-success h-14'>
@@ -171,6 +195,25 @@ export const PostCard = () => {
                                 </div>
 
                                 <p className='fs-8 text-black-60 mb-0 ms-4 ps-3'>958 • 16 comments • 65 reposts</p>
+                            </div>
+                        </div>
+
+                        <div className='px-3 d-flex align-items-center justify-content-center'>
+                            <div className='text-center px-22'>
+                                <img src={LikeIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>like</p>
+                            </div>
+                            <div className='text-center px-22'>
+                                <img src={CommentIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>comment</p>
+                            </div>
+                            <div className='text-center px-22'>
+                                <img src={RepostIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>repost</p>
+                            </div>
+                            <div className='text-center px-22'>
+                                <img src={SendIcon} alt="" className='w-24 h-24 mb-1' />
+                                <p className='fs-7 text-black-60 text-capitalize m-0'>send</p>
                             </div>
                         </div>
 
