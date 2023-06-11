@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import { MainCard, AboutCard, PostCard } from "./components/MainCard";
 import {PeopleViewed, PeopleFollow} from "./components/Aside";
+import Popup from "./components/Popup";
 
 const LinkedIn = () => {
   return (
@@ -24,6 +25,7 @@ const LinkedIn = () => {
           </div>
         </div>
       </div>
+      <Popup />
     </div>
   );
 }
