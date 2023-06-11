@@ -178,7 +178,7 @@ export const PeopleFollow = () => {
 
             {/* Card */}
             <div className="px-4 mt-20" role='button'>
-                <div className="border-bottom border-gray-300 d-flex column-gap-4 pb-20">
+                <div className="d-flex column-gap-4 pb-20">
                     <img src={img5} alt="" className='w-48 h-48' /> {/* first child */}
                     <div>                                           {/* second child */}
                         <h3 className='fw-medium fs-6 mb-0'>Landor</h3>
