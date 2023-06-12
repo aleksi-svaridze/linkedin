@@ -22,44 +22,46 @@ const Navbar = () => {
                 </button>
                 
                 <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <form className='position-relative'>
+                    <form className='position-relative py-3 py-lg-0'>
                         <input type="text" placeholder='search' className='h-32 form-control border-0 bg-gray-100 rounded-6 py-2 pe-20 ps-40 fs-7 text-gray' />
                         <img src={SearchIcon} alt="" className='w-14 h-15 position-absolute top-50 translate-middle-y start-20' />
                     </form>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="me-1 fs-8 py-14 nav-link d-flex flex-column align-items-center text-capitalize" href="/">
+                            <a className="me-1 fs-8 py-14 nav-link  d-flex column-gap-2 flex-lg-column align-items-center text-capitalize" href="/">
                                 <img src={HomeIcon} alt="" className='w-24 h-24 mb-1' />
                                 <span className='opacity-60'>Home</span>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="mx-1 fs-8 py-14 nav-link d-flex flex-column align-items-center text-capitalize" href="/">
+                            <a className="mx-1 fs-8 py-14 nav-link d-flex column-gap-2 flex-lg-column align-items-center text-capitalize" href="/">
                                 <img src={NetworkIcon} alt="" className='w-24 h-24 mb-1' />
                                 <span className='opacity-60'>my network</span>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="mx-1 fs-8 py-14 nav-link d-flex flex-column align-items-center text-capitalize" href="/">
+                            <a className="mx-1 fs-8 py-14 nav-link d-flex column-gap-2 flex-lg-column align-items-center text-capitalize" href="/">
                                 <img src={JobsIcon} alt="" className='w-24 h-24 mb-1' />
                                 <span className='opacity-60'>jobs</span>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="mx-1 fs-8 py-14 nav-link d-flex flex-column align-items-center text-capitalize" href="/">
+                            <a className="mx-1 fs-8 py-14 nav-link d-flex column-gap-2 flex-lg-column align-items-center text-capitalize" href="/">
                                 <img src={MessageIcon} alt="" className='w-24 h-24 mb-1' />
                                 <span className='opacity-60'>messaging</span>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="mx-1 fs-8 py-14 nav-link d-flex flex-column align-items-center text-capitalize position-relative" href="/">
-                                <img src={NotificationsIcon} alt="" className='w-24 h-24 mb-1' />
+                            <a className="mx-1 fs-8 py-14 nav-link d-inline-flex column-gap-2 flex-lg-column align-items-center text-capitalize" href="/">
+                                <span className='position-relative'>
+                                    <img src={NotificationsIcon} alt="" className='w-24 h-24 mb-1' />
+                                    <span class="position-absolute top-25 start-100 translate-middle badge bg-red text-white rounded-pill font-inter fs-9 align-middle fw-semibold py-8 px-1">22</span>
+                                </span>
                                 <span className='opacity-60'>notifications</span>
-                                <span class="position-absolute top-5 end-18 badge bg-red text-white rounded-pill font-inter fs-9 align-middle fw-semibold py-8 px-1">22</span>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="mx-1 fs-8 py-14 nav-link d-flex flex-column align-items-center text-capitalize" href="/">
+                            <a className="mx-1 fs-8 py-14 nav-link d-flex column-gap-2 flex-lg-column align-items-center text-capitalize" href="/">
                                 <img src={UserProfileIcon} alt="" className='w-24 h-24 mb-1 rounded-circle' />
                                 <span className='opacity-60'>
                                     me
@@ -69,7 +71,7 @@ const Navbar = () => {
                         </li>
                         <li className='bg-gray-300 ms-3 me-2' style={{width: '1px'}}></li>
                         <li className="nav-item">
-                            <a className="mx-2 fs-8 py-14 nav-link d-flex flex-column align-items-center text-capitalize" href="/">
+                            <a className="mx-2 fs-8 py-14 nav-link d-flex column-gap-2 flex-lg-column align-items-center text-capitalize" href="/">
                                 <img src={WorkIcon} alt="" className='w-24 h-24 mb-1' />
                                 <span className='opacity-60'>
                                     work

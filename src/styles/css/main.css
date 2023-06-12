@@ -507,6 +507,10 @@
   left: 24px;
 }
 
+.top-25 {
+  top: 25%;
+}
+
 .background-position-center {
   background-position: center;
 }
